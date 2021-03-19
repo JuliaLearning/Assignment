@@ -1,0 +1,13 @@
+name = "MultiPart"
+uuid = "444b683a-c167-4dd0-aad4-6f64603d4d32"
+authors = ["Jaan Tollander de Balsch <jaan@hey.com>"]
+version = "0.1.0"
+
+[compat]
+julia = "1"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
