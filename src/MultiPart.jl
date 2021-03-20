@@ -1,5 +1,7 @@
 module MultiPart
 
+export f, g, h
+
 ## Exercise 1
 # TODO: return "Multi"
 f() = nothing
