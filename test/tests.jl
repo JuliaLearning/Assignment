@@ -1,3 +1,6 @@
+using Test
+using MultiPart
+
 function test_f()
     @testset "e1" begin
         @test f() == "Multi"
