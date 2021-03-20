@@ -1,14 +1,10 @@
 using Test
 using MultiPart
 
+include("tests.jl")
+
 @testset "Assignments" begin
-    @testset "e1" begin
-        @test f() == "Multi"
-    end
-    @testset "e2" begin
-        @test g() == "Part"
-    end
-    @testset "e3" begin
-        @test h() == "Assignment"
-    end
+    test_f()
+    test_g()
+    test_h()
 end
