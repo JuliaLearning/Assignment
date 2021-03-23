@@ -1,5 +1,5 @@
 using Test
-using MultiPart
+using Assignment
 
 function test_f()
     @testset "e1" begin

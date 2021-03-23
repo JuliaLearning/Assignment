@@ -1,4 +1,4 @@
-module MultiPart
+module Assignment
 
 export f, g, h
 
